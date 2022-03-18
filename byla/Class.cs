@@ -20,7 +20,6 @@ namespace bylos
             katF = name1;  //katalogo pavadinimas
             path = katF + "/";
         }
-
         public void kurimas()
         {  
             //tikrinama ar yra sukurtas failu katalogas, jei ne - sukuriame
@@ -55,7 +54,6 @@ namespace bylos
             }
 
         }
-
         public void ataskaita(string name2, string name)
         {
             katA = path + name2;  //ataskaitos katalogo pavadinimas
@@ -85,7 +83,6 @@ namespace bylos
             FileSystem.WriteAllText(katA + "/" + name + ".txt", "Pateiktose bylose vienetu yra " + vienas + ", o nuliu - " + nulis, false);
             Console.WriteLine("Ataskaita patalpinta faile.");
         }
-
         public void trinti()
         {
             int n = 0; //sekti kiek failu buvo istrinta
